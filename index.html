@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekday or Weekend</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+     <!-- Bootstrap  -->
+     <script src="/js/bootstrap.bundle.min.js"></script>
+    <div class="container-sm">
+        <div class="row text-center my-5">
+            <div class="col my-2"><input type="number" id='day' placeholder="Día"></div>
+            <div class="col my-2"><input type="number" id='month' placeholder="Mes"></div>
+            <div class="col my-2"><input type="number" id='year' placeholder="Año"></div>
+        </div>
+    </div>
+    <div class="row text-center my-5">
+        <p><a id='calc' class="btn btn-primary" onclick=""><i class="fa-solid fa-calendar-days"></i> Calcular</a></p>
+    </div>
+    <div class="row my-5 text-center">
+        <div class="col">
+            <input class='col' placeholder=" Día Hábil o Inhábil" id='habil' type="text">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
