@@ -6,7 +6,7 @@ const weekday = document.getElementById("habil");
 const weekdays = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
 
 document.getElementById("calc").addEventListener("click", function () {
-    const d = new Date(anio.value, mes.value, (dia.value - 2), 10, 33, 30, 0);
+    const d = new Date(anio.value, (mes.value-1), (dia.value), 10, 33, 30, 0);
 
     let dd;
     switch (d.getDay()) {
